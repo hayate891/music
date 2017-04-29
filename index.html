@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Life is Tech! Music</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta content="Life is Tech! Music" name="title">
+    <meta content="Life is Tech!な音楽のまとめです。" name="description">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Life is Tech! Music">
+    <meta property="og:description" content="Life is Tech!な音楽のまとめのリポジトリです。">
+    <meta property="og:image" content="http://lit-kansai-members.github.io/music/img/og.png">
+    <meta property="og:url" content="http://lit-kansai-members.github.io/music/">
+    <meta property="og:site_name" content="Life is Tech! Music">
+    <meta content="Life is Tech!な音楽のまとめのリポジトリです。" name="twitter:card">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script>const $ = s => Array.from(document.querySelectorAll(s));</script>
+  </head>
+  <body>
+    <div id="loading">
+      <svg id="lit-logo" viewbox="0 0 230 280">
+        <path class="second square" style="stroke:#1792cb;" d="m 25,0 0,230"></path>
+        <path class="second" style="stroke:#f0c11a;" d="m 85,120 0,100"></path>
+        <path style="stroke:#f0c11a;" d="M 85,110 85,60"></path>
+        <path class="first" style="stroke:#e83e37;" d="M 205,50 C 205,25 180,25 180,25 L 60,25"></path>
+        <path class="second square" style="stroke:#e83e37;" d="M 145,280 145,50"></path>
+        <path class="second" style="stroke:#66ae32;" d="M 205,220 205,60"></path>
+        <path style="stroke:#66ae32;" d="m 205,280 0,-50"></path>
+        <path class="first" d="m 25,225 c -1,25 25,25 25,25 l 60,0" style="stroke:#1792cb;"></path>
+      </svg>
+      <p>take too much time? see <a href="https://github.com/lit-kansai-members/music/blob/master/index.md">Markdown version</a>.</p>
+    </div>
+    <nav>
+      <ul id="navigations">
+        <li class="year"><a href="#" data-scroll><span>↑</span>
+            <div class="inneryear">TOP</div></a></li>
+        <li class="year"><a href="#a-2017" data-scroll><span>17</span>
+            <div class="inneryear">2017</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--17-Spring-Camp" data-scroll>'17 Spring Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-2016" data-scroll><span>16</span>
+            <div class="inneryear">2016</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--16-Xmas-Camp" data-scroll>'16 Xmas Camp</a></li>
+            <li class="camp"><a href="#a--16-Summer-Camp" data-scroll>'16 Summer Camp</a></li>
+            <li class="camp"><a href="#a--16-Spring-Camp" data-scroll>'16 Spring Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-2015" data-scroll><span>15</span>
+            <div class="inneryear">2015</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--15-Dec--16-Jan-Be-Startup-Coca-Cola-Camp" data-scroll>'15 Dec-'16 Jan Be Startup Coca-Cola Camp</a></li>
+            <li class="camp"><a href="#a--15-Xmas-Camp" data-scroll>'15 Xmas Camp</a></li>
+            <li class="camp"><a href="#a--15-Summer-Camp" data-scroll>'15 Summer Camp</a></li>
+            <li class="camp"><a href="#a--15-Jun--YOSHIMOTO-TECHDAY" data-scroll>'15 Jun. YOSHIMOTO TECHDAY</a></li>
+            <li class="camp"><a href="#a--15-ライフ伊豆キャンプ" data-scroll>'15 ライフ伊豆キャンプ</a></li>
+            <li class="camp"><a href="#a--15-萩1Days" data-scroll>'15 萩1Days</a></li>
+            <li class="camp"><a href="#a--15-Spring-Camp" data-scroll>'15 Spring Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-2014" data-scroll><span>14</span>
+            <div class="inneryear">2014</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--14-Xmas-Camp" data-scroll>'14 Xmas Camp</a></li>
+            <li class="camp"><a href="#a--14-Summer-Camp" data-scroll>'14 Summer Camp</a></li>
+            <li class="camp"><a href="#a--14-English-Camp" data-scroll>'14 English Camp</a></li>
+            <li class="camp"><a href="#a--14-Spring-Camp" data-scroll>'14 Spring Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-2013" data-scroll><span>13</span>
+            <div class="inneryear">2013</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--13-Xmas-Camp" data-scroll>'13 Xmas Camp</a></li>
+            <li class="camp"><a href="#a--13-Summer-Camp" data-scroll>'13 Summer Camp</a></li>
+            <li class="camp"><a href="#a--13-Spring-Camp" data-scroll>'13 Spring Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-2012" data-scroll><span>12</span>
+            <div class="inneryear">2012</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a--12-Xmas-Camp" data-scroll>'12 Xmas Camp</a></li>
+            <li class="camp"><a href="#a--12-Summer-Camp" data-scroll>'12 Summer Camp</a></li>
+          </ul>
+        </li>
+        <li class="year"><a href="#a-番外編" data-scroll><span>★</span>
+            <div class="inneryear">番外編</div></a>
+          <ul class="outerCamp">
+            <li class="camp"><a href="#a-メンター-コース紹介" data-scroll>メンター/コース紹介</a></li>
+            <li class="camp"><a href="#a-スクール夏期講習" data-scroll>スクール夏期講習</a></li>
+            <li class="camp"><a href="#a-メンター講習テーマ" data-scroll>メンター講習テーマ</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1><img id="mark" src="img/mark.png"><img id="logo" src="img/logo.png" alt="Life is Tech! ®"><img id="music" src="img/music.svg" alt="music"></h1><a class="bounce" href="#main" data-scroll>Scroll Down<br><img src="img/arrow.svg"></a>
+    </header>
+    <main id="main">
+      <h2 id="a-2017"><a class="colorful" href="#a-2017">2017</a></h2>
+      <h3 id="a--17-Spring-Camp"><a href="#a--17-Spring-Camp">'17 Spring Camp</a><small class="camp-theme">閃け！春！Spark -Spark! Spring!-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/spring2017_desktop_1.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/3j77uK8hu5A/0.jpg">
+            <button class="play" data-youtube-id="3j77uK8hu5A"></button><a href="//youtu.be/3j77uK8hu5A">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Next Stage with YOU<small>Perfume</small></h4>
+          <div class="body"><p>メルセデス・ベンツ × Perfume コラボレーションCMソング  </p>
+<p><a href="http://j-lyric.net/artist/a04cc66/l03a371.html">歌詞(J-Lyric)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/ZFshsGiJqmM/0.jpg">
+            <button class="play" data-youtube-id="ZFshsGiJqmM"></button><a href="//youtu.be/ZFshsGiJqmM">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>さよならバイスタンダー<small>YUKI</small></h4>
+          <div class="body"><p>TVアニメ「３月のライオン」オープニングテーマ  </p>
+<p><a href="http://www.kasi-time.com/item-80975.html">歌詞(歌詞タイム)</a></p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/UzMamUEdlMI/0.jpg">
+            <button class="play" data-youtube-id="UzMamUEdlMI"></button><a href="//youtu.be/UzMamUEdlMI">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>やってみよう<small>WANIMA</small></h4>
+          <div class="body"><p>au 冬期CMソング</p>
+<p><a href="http://petitlyrics.com/lyrics/2554503">歌詞(プチリリ)</a></p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/pnBnu5v8KTw/0.jpg">
+            <button class="play" data-youtube-id="pnBnu5v8KTw"></button><a href="//youtu.be/pnBnu5v8KTw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>さくら体操<small>NIPPON HOSO KYOUKAI</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a0006b5/l001e01.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-2016"><a class="colorful" href="#a-2016">2016</a></h2>
+      <h3 id="a--16-Xmas-Camp"><a href="#a--16-Xmas-Camp">'16 Xmas Camp</a><small class="camp-theme">一年に一度だけ、特別な数日間。</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/xmas2016_desktop_yellow.jpg">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/qfsr0S_QGOU/0.jpg">
+            <button class="play" data-youtube-id="qfsr0S_QGOU"></button><a href="//youtu.be/qfsr0S_QGOU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Hey Ho<small>SEKAI NO OWARI</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a055790/l03c659.html">歌詞(J-Lyric.net)</a></p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/0E00Zuayv9Q/0.jpg">
+            <button class="play" data-youtube-id="0E00Zuayv9Q"></button><a href="//youtu.be/0E00Zuayv9Q">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>PPAP(ペンパイナッポーアッポーペン)<small>ピコ太郎</small></h4>
+          <div class="body"><p>注意点太郎 元曲  </p>
+<p><a href="http://www.uta-net.com/song/216737/">歌詞(歌ネット)</a><br><a href="#a-注意点太郎2016Xmas" class="open-modal">注意点太郎歌詞</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--16-Summer-Camp"><a href="#a--16-Summer-Camp">'16 Summer Camp</a><small class="camp-theme">世界なんて、ひと夏で変わる。 -LIVE AN ADVENTUROUS-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/desktop_summer2016_blue.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/ru0K8uYEZWw/0.jpg">
+            <button class="play" data-youtube-id="ru0K8uYEZWw"></button><a href="//youtu.be/ru0K8uYEZWw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>CAN'T STOP THEE FEELING!<small>JUSTIN TIMBERLAKE</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/3exsRhw3xt8/0.jpg">
+            <button class="play" data-youtube-id="3exsRhw3xt8"></button><a href="//youtu.be/3exsRhw3xt8">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>シュガーソングとビターステップ<small>UNISON SQUARE GARDEN</small></h4>
+          <div class="body"><p>TVアニメ「血界戦線」エンディングテーマ  </p>
+<p><a href="http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/4Sd3iIdM4Co/0.jpg">
+            <button class="play" data-youtube-id="4Sd3iIdM4Co"></button><a href="//youtu.be/4Sd3iIdM4Co">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>宝石になった日<small>BUMP OF CHICKEN</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a000673/l0396dd.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/PcFaBM_3Ucc/0.jpg">
+            <button class="play" data-youtube-id="PcFaBM_3Ucc"></button><a href="//youtu.be/PcFaBM_3Ucc">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Green Bird<small>フジファブリック</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a033e7f/l0365c3.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/fTwAz1JC4yI/0.jpg">
+            <button class="play" data-youtube-id="fTwAz1JC4yI"></button><a href="//youtu.be/fTwAz1JC4yI">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>MUSIC VIDEO<small>岡崎体育</small></h4>
+          <div class="body"><p>注意点 VIDEO 元曲  </p>
+<p><a href="#a-注意点VIDEO2016Summer" class="open-modal">注意点VIDEO歌詞</a><br><a href="http://j-lyric.net/artist/a05b49f/l03a993.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--16-Spring-Camp"><a href="#a--16-Spring-Camp">'16 Spring Camp</a><small class="camp-theme">まだ見ぬ世界に全力でワクワクしよう。 -Next World-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/desktop_spring2016_web.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/ZFoJYI7Q4iA/0.jpg">
+            <button class="play" data-youtube-id="ZFoJYI7Q4iA"></button><a href="//youtu.be/ZFoJYI7Q4iA">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>シルエット<small>KANA-BOON</small></h4>
+          <div class="body"><p>TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ  </p>
+<p><a href="http://j-lyric.net/artist/a05808c/l033c07.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/vZ2_tOoefyU/0.jpg">
+            <button class="play" data-youtube-id="vZ2_tOoefyU"></button><a href="//youtu.be/vZ2_tOoefyU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Tell The World<small>Eric Hutchinson</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/hillsongunited/telltheworld.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/JbyQOzRANYs/0.jpg">
+            <button class="play" data-youtube-id="JbyQOzRANYs"></button><a href="//youtu.be/JbyQOzRANYs">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ランアンドラン<small>KANA-BOON</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a05808c/l0391c1.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/4Bh1nm7Ir8c/0.jpg">
+            <button class="play" data-youtube-id="4Bh1nm7Ir8c"></button><a href="//youtu.be/4Bh1nm7Ir8c">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>PERFECT HUMAN<small>RADIOFISH</small></h4>
+          <div class="body"><p>注意点HUMAN  </p>
+<p><a href="#a-注意点HUMAN2016Spring" class="open-modal">注意点HUMAN歌詞</a><br><a href="http://j-lyric.net/artist/a05b4f4/l03ab42.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/pnBnu5v8KTw/0.jpg">
+            <button class="play" data-youtube-id="pnBnu5v8KTw"></button><a href="//youtu.be/pnBnu5v8KTw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>さくら体操<small>NIPPON HOSO KYOUKAI</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a0006b5/l001e01.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-2015"><a class="colorful" href="#a-2015">2015</a></h2>
+      <h3 id="a--15-Dec--16-Jan-Be-Startup-Coca-Cola-Camp"><a href="#a--15-Dec--16-Jan-Be-Startup-Coca-Cola-Camp">'15 Dec-'16 Jan Be Startup Coca-Cola Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/uKgmu8g-kXE/0.jpg">
+            <button class="play" data-youtube-id="uKgmu8g-kXE"></button><a href="//youtu.be/uKgmu8g-kXE">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハピネス<small>AI</small></h4>
+          <div class="body"><p>コカ・コーラ 冬期CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a001bf4/l027392.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-Xmas-Camp"><a href="#a--15-Xmas-Camp">'15 Xmas Camp</a><small class="camp-theme">5日間だけの魔法の世界へ、ようこそ -Make with Magic-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/desktop_xmas2015_night.jpg">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/LIlZCmETvsY/0.jpg">
+            <button class="play" data-youtube-id="LIlZCmETvsY"></button><a href="//youtu.be/LIlZCmETvsY">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>新宝島<small>サカナクション</small></h4>
+          <div class="body"><p>映画 バクマン。 主題歌  </p>
+<p><a href="http://j-lyric.net/artist/a04d6c9/l037b92.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/uKgmu8g-kXE/0.jpg">
+            <button class="play" data-youtube-id="uKgmu8g-kXE"></button><a href="//youtu.be/uKgmu8g-kXE">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハピネス<small>AI</small></h4>
+          <div class="body"><p>コカ・コーラ 冬期CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a001bf4/l027392.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/mqBQPsEbGDw/0.jpg">
+            <button class="play" data-youtube-id="mqBQPsEbGDw"></button><a href="//youtu.be/mqBQPsEbGDw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Share The Love<small>三代目 J Soul Brothers</small></h4>
+          <div class="body"><p>Pocky CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a05b271/l03a1e5.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/a6iZKNfDuh4/0.jpg">
+            <button class="play" data-youtube-id="a6iZKNfDuh4"></button><a href="//youtu.be/a6iZKNfDuh4">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハレ晴レユカイ<small>涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子)</small></h4>
+          <div class="body"><p>TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ  </p>
+<p><a href="http://j-lyric.net/artist/a04cfa4/l00a8e0.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/G0zRBRUQils/0.jpg">
+            <button class="play" data-youtube-id="G0zRBRUQils"></button><a href="//youtu.be/G0zRBRUQils">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>あたりまえ体操<small>COWCOW</small></h4>
+          <div class="body"><p>注意点体操  </p>
+<p><a href="#a-注意点体操Xmas2015" class="open-modal">注意点体操歌詞</a><br><a href="http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/">歌詞(J-Lyric.net)</a> </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-Summer-Camp"><a href="#a--15-Summer-Camp">'15 Summer Camp</a><small class="camp-theme">世界で一番、ココロ踊る「夏」を。 -A SUMMER THAT ROCKS YOUR HEART-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/summer2015-blue.jpg">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/xii1jKIbHH8/0.jpg">
+            <button class="play" data-youtube-id="xii1jKIbHH8"></button><a href="//youtu.be/xii1jKIbHH8">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Come On! Come On! -Happy with Smile-<small>THE UNITED</small></h4>
+          <div class="body"><p><a href="http://www.musixmatch.com/ja/lyrics/The-United/Come-On-Come-On-~Happy-with-Smile~">歌詞(musiXmatch)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/tfeSwQ-iU0U/0.jpg">
+            <button class="play" data-youtube-id="tfeSwQ-iU0U"></button><a href="//youtu.be/tfeSwQ-iU0U">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Beautiful<small>Superfly</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a04cdbd/l036081.html">歌詞(J-Lyric)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/G0zRBRUQils/0.jpg">
+            <button class="play" data-youtube-id="G0zRBRUQils"></button><a href="//youtu.be/G0zRBRUQils">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>あたりまえ体操<small>COWCOW</small></h4>
+          <div class="body"><p>注意点体操  </p>
+<p><a href="#a-注意点体操2015Summer" class="open-modal">注意点体操歌詞</a><br><a href="http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/">歌詞(J-Lyric.net)</a> </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-Jun--YOSHIMOTO-TECHDAY"><a href="#a--15-Jun--YOSHIMOTO-TECHDAY">'15 Jun. YOSHIMOTO TECHDAY</a>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/yoshimoto_bg.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/1yy4kxA_UVU/0.jpg">
+            <button class="play" data-youtube-id="1yy4kxA_UVU"></button><a href="//youtu.be/1yy4kxA_UVU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>LAUGH! LAUGH! LAUGH!<small></small></h4>
+          <div class="body"><p><a href="http://www.uta-net.com/song/167194/">歌詞(歌ネット)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-ライフ伊豆キャンプ"><a href="#a--15-ライフ伊豆キャンプ">'15 ライフ伊豆キャンプ</a><small class="camp-theme">一年に一度だけ、地獄のような３日間</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/key_izu.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/W3r_wFIGjHU/0.jpg">
+            <button class="play" data-youtube-id="W3r_wFIGjHU"></button><a href="//youtu.be/W3r_wFIGjHU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>バリバリ最強No.1<small>FEEL SO BAD</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a01176a/l0011d8.html">歌詞(J-Lyric)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-萩1Days"><a href="#a--15-萩1Days">'15 萩1Days</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <h4>超特急ライン<small></small></h4>
+          <div class="body"><p><a href="//dova-s.jp/bgm/play2260.html">DOVA-SYNDROME</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--15-Spring-Camp"><a href="#a--15-Spring-Camp">'15 Spring Camp</a><small class="camp-theme">すべてがサプライズの春キャンプへ -Surprise Everything-</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/2015_spring.jpeg">
+        <section>
+          <h4>超特急ライン<small></small></h4>
+          <div class="body"><p><a href="//dova-s.jp/bgm/play2260.html">DOVA-SYNDROME</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/hOcmPLT2U48/0.jpg">
+            <button class="play" data-youtube-id="hOcmPLT2U48"></button><a href="//youtu.be/hOcmPLT2U48">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ひまわりの約束<small>秦基博</small></h4>
+          <div class="body"><p>STAND BY ME ドラえもん 主題歌  </p>
+<p><a href="http://j-lyric.net/artist/a04c9d1/l032376.html">歌詞(J-Lyric)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/s28PuyRqLrs/0.jpg">
+            <button class="play" data-youtube-id="s28PuyRqLrs"></button><a href="//youtu.be/s28PuyRqLrs">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Happily<small>One Direction</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/onedirection/happily.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/pnBnu5v8KTw/0.jpg">
+            <button class="play" data-youtube-id="pnBnu5v8KTw"></button><a href="//youtu.be/pnBnu5v8KTw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>さくら体操<small>NIPPON HOSO KYOUKAI</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a0006b5/l001e01.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-2014"><a class="colorful" href="#a-2014">2014</a></h2>
+      <h3 id="a--14-Xmas-Camp"><a href="#a--14-Xmas-Camp">'14 Xmas Camp</a><small class="camp-theme">一年に一度だけ、魔法のような4日間</small>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/gsVGf1T2Hfs/0.jpg">
+            <button class="play" data-youtube-id="gsVGf1T2Hfs"></button><a href="//youtu.be/gsVGf1T2Hfs">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Dragon Night<small>SEKAI NO OWARI</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a055790/l033358.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/u1ZB_rGFyeU/0.jpg">
+            <button class="play" data-youtube-id="u1ZB_rGFyeU"></button><a href="//youtu.be/u1ZB_rGFyeU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>I Won't Let You Down<small>OK Go</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/okgo/iwontletyoudown.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/uKgmu8g-kXE/0.jpg">
+            <button class="play" data-youtube-id="uKgmu8g-kXE"></button><a href="//youtu.be/uKgmu8g-kXE">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハピネス<small>AI</small></h4>
+          <div class="body"><p>コカ・コーラ 冬期CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a001bf4/l027392.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--14-Summer-Camp"><a href="#a--14-Summer-Camp">'14 Summer Camp</a><small class="camp-theme">夏のすべてが詰まってる</small>
+      </h3>
+      <div class="parallax"><img class="background" src="img/backgrounds/summer2014-blue.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/yT_ylSCgY6Q/0.jpg">
+            <button class="play" data-youtube-id="yT_ylSCgY6Q"></button><a href="//youtu.be/yT_ylSCgY6Q">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ray<small>BUMP OF CHICKEN feat. HATSUNE MIKU</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a000673/l030b34.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/TIzNszoG_TA/0.jpg">
+            <button class="play" data-youtube-id="TIzNszoG_TA"></button><a href="//youtu.be/TIzNszoG_TA">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ミラクル<small>miwa</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a04e594/l02ca67.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--14-English-Camp"><a href="#a--14-English-Camp">'14 English Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/y6Sxv-sUYtM/0.jpg">
+            <button class="play" data-youtube-id="y6Sxv-sUYtM"></button><a href="//youtu.be/y6Sxv-sUYtM">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Happy<small>Rharrell Williams</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/pharrellwilliams/happy.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--14-Spring-Camp"><a href="#a--14-Spring-Camp">'14 Spring Camp</a><small class="camp-theme">出会い、別れ、はじまり</small>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/JQowMIY2bOw/0.jpg">
+            <button class="play" data-youtube-id="JQowMIY2bOw"></button><a href="//youtu.be/JQowMIY2bOw">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>スターラブレイション<small>ケラケラ</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a05751d/l02cddb.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/CwOvDQdH2-Q/0.jpg">
+            <button class="play" data-youtube-id="CwOvDQdH2-Q"></button><a href="//youtu.be/CwOvDQdH2-Q">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>変わらないもの<small>奥華子</small></h4>
+          <div class="body"><p>アニメ映画「時をかける少女」挿入歌  </p>
+<p><a href="http://j-lyric.net/artist/a04c9e3/l00af88.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-2013"><a class="colorful" href="#a-2013">2013</a></h2>
+      <h3 id="a--13-Xmas-Camp"><a href="#a--13-Xmas-Camp">'13 Xmas Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/dFf4AgBNR1E/0.jpg">
+            <button class="play" data-youtube-id="dFf4AgBNR1E"></button><a href="//youtu.be/dFf4AgBNR1E">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>恋するフォーチュンクッキー<small>AKB48</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a04cb7c/l02e06a.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/uKgmu8g-kXE/0.jpg">
+            <button class="play" data-youtube-id="uKgmu8g-kXE"></button><a href="//youtu.be/uKgmu8g-kXE">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハピネス<small>AI</small></h4>
+          <div class="body"><p>コカ・コーラ 冬期CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a001bf4/l027392.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--13-Summer-Camp"><a href="#a--13-Summer-Camp">'13 Summer Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/Mi9uNu35Gmk/0.jpg">
+            <button class="play" data-youtube-id="Mi9uNu35Gmk"></button><a href="//youtu.be/Mi9uNu35Gmk">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>RPG<small>SEKAI NO OWARI</small></h4>
+          <div class="body"><p>映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌  </p>
+<p><a href="http://j-lyric.net/artist/a055790/l02cbdb.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--13-Spring-Camp"><a href="#a--13-Spring-Camp">'13 Spring Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/N6-0aquSvXk/0.jpg">
+            <button class="play" data-youtube-id="N6-0aquSvXk"></button><a href="//youtu.be/N6-0aquSvXk">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Boom!<small>Maia Hirasawa</small></h4>
+          <div class="body"><p>「JR九州/祝！九州キャンペーン」CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a054d2c/l025022.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/iOFZKwv_LfA/0.jpg">
+            <button class="play" data-youtube-id="iOFZKwv_LfA"></button><a href="//youtu.be/iOFZKwv_LfA">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ODDS&amp;ENDS<small>ryo(supercell) feat. 初音ミク</small></h4>
+          <div class="body"><p>ゲーム「初音ミク -Project Diva- f」テーマソング  </p>
+<p><a href="http://www.uta-net.com/song/134511/">歌詞(歌ネット)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/oneSbqH4lwY/0.jpg">
+            <button class="play" data-youtube-id="oneSbqH4lwY"></button><a href="//youtu.be/oneSbqH4lwY">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>さよならメモリーズ<small>supercell</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a051979/l01e2e0.html">歌詞(J-Lyric.net)</a></p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-2012"><a class="colorful" href="#a-2012">2012</a></h2>
+      <h3 id="a--12-Xmas-Camp"><a href="#a--12-Xmas-Camp">'12 Xmas Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/uKgmu8g-kXE/0.jpg">
+            <button class="play" data-youtube-id="uKgmu8g-kXE"></button><a href="//youtu.be/uKgmu8g-kXE">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>ハピネス<small>AI</small></h4>
+          <div class="body"><p>コカ・コーラ 冬期CMソング  </p>
+<p><a href="http://j-lyric.net/artist/a001bf4/l027392.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a--12-Summer-Camp"><a href="#a--12-Summer-Camp">'12 Summer Camp</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/caF6nJxTejc/0.jpg">
+            <button class="play" data-youtube-id="caF6nJxTejc"></button><a href="//youtu.be/caF6nJxTejc">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>君の知らない物語<small>supercell</small></h4>
+          <div class="body"><p>TVアニメ「化物語」エンディングテーマ  </p>
+<p><a href="http://www.kasi-time.com/item-43855.html">歌詞(歌詞タイム)</a>  </p>
+</div>
+        </section>
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/RbpDRk_OAPU/0.jpg">
+            <button class="play" data-youtube-id="RbpDRk_OAPU"></button><a href="//youtu.be/RbpDRk_OAPU">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Overture of the Summer Wars<small>松本晃彦</small></h4>
+          <div class="body"><p>アニメ映画「サマーウォーズ」挿入歌  </p>
+</div>
+        </section>
+      </div>
+      <h2 id="a-番外編"><a class="colorful" href="#a-番外編">番外編</a></h2>
+      <h3 id="a-メンター-コース紹介"><a href="#a-メンター-コース紹介">メンター/コース紹介</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/cOQDsmEqVt8/0.jpg">
+            <button class="play" data-youtube-id="cOQDsmEqVt8"></button><a href="//youtu.be/cOQDsmEqVt8">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>Wings<small>Little Mix</small></h4>
+          <div class="body"><p><a href="http://www.azlyrics.com/lyrics/littlemix/wings.html">歌詞(AZLyrics)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a-スクール夏期講習"><a href="#a-スクール夏期講習">スクール夏期講習</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/jgofbf8Q_-Y/0.jpg">
+            <button class="play" data-youtube-id="jgofbf8Q_-Y"></button><a href="//youtu.be/jgofbf8Q_-Y">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>PERFECT BLUE<small>Base Ball Bear</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a04c8a1/l02bdf5.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+      <h3 id="a-メンター講習テーマ"><a href="#a-メンター講習テーマ">メンター講習テーマ</a>
+      </h3>
+      <div class="parallax"><img class="background noimage" src="./img/backgrounds/lifeistech-logo.png">
+        <section>
+          <div class="youtube"><img class="thumb" src="https://img.youtube.com/vi/7gcCRAl58u4/0.jpg">
+            <button class="play" data-youtube-id="7gcCRAl58u4"></button><a href="//youtu.be/7gcCRAl58u4">Watch at <img src="./img/YouTube-logo-light.png" alt="YouTube"></a>
+          </div>
+          <h4>SUN<small>星野源</small></h4>
+          <div class="body"><p><a href="http://j-lyric.net/artist/a0512cf/l036090.html">歌詞(J-Lyric.net)</a>  </p>
+</div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p class="colorful" id="thanks">Thanks for visit!</p>
+        <p>do you have some infomation?<br>    fork me on <a href="https://github.com/lit-kansai-members/music"><img src="img/github-mark.svg"><img src="img/github-logo.svg" alt="GitHub"></a><br><small>This project is an unoffcial.</small></p>
+      </div>
+    </footer>
+    <div class="modal" id="a-注意点HUMAN2016Spring"><a class="close-modal" href="#">Close</a>
+      <div class="chuiten"><p>彼は言った 世界は必ずしもすべて自由と限らない<br>彼は言った その自由の上には絶対ルールが存在する<br>彼は言った そのルールの原則が 安全第一そうsafety first!<br>彼が法であり秩序保たれる すぐさまなくなる世界のWar<br>時は来た 彼こそ注意の支配者　<br>彼の言葉 無視する違反者<br>感謝の言葉 彼に「あ（りがとうございま）した」<br>なにかあれば 彼に相談<br>全員崇める準備はいいか？<br>キャンプを楽しむつもりはあるか？<br>さあみんな手を天にかかげ<br>そして 今こそ祈れ<br>恐れるな おののくな<br>まもれ（hey)声あげろ（ho)<br>いよいよでてくるあの男が<br>I’m a 注意点 human<br>ta ma ni ta ma ni<br>ta ma ni ta ma ni<br>ta ma ni yasume (たまにやすめ）<br>I’m a 注意点 human<br>We Keep a promise<br>ta ma ni yasume (たまにやすめ）<br>I’m a 注意点 human<br>We believe In new God<br>キャンプは意外と長丁場<br>I’m a 注意点 human<br>yo ru ha yoruha<br>yo ru ha yoruha<br>yo ru ha neroyo (よるはねろよ）<br>I’m a 注意点 human<br>We Keep a promise<br>早く寝ないと次の日つらい<br>I’m a 注意点 human<br>だけど いちばん だいじなのは 楽しむこと<br>We are the the 注意点human  </p>
+</div>
+    </div>
+    <div class="modal" id="a-注意点VIDEO2016Summer"><a class="close-modal" href="#">Close</a>
+      <div class="chuiten"><p>※（）内は字幕歌詞  </p>
+<p>カメラ目線で歩きながら歌う<br>急に横からメンバー出てくる<br>突然カメラを手で隠して<br>次のカットで場所移動している  </p>
+<p>無意味に分身するよね  </p>
+<p>注意点ビデオにおける<br>注意事項講座  </p>
+<p>かわく<br>疲れる<br>おひるまねむる<br>深夜はめざめる（よるにめざめる）<br>いなくなる  </p>
+<p>かわく<br>疲れる<br>おひるまねむる<br>深夜はめざめる（よるにめざめる）<br>いなくなる  </p>
+<p>Creation Creation Creation（Attention Attention Attention）<br>音楽と（感覚と）<br>Creation Creation Creation（Attention Attention Attention）<br>映像が（意識が）  </p>
+<p>毎回絡まり　手を取り合い（毎回薄まり きわどい頃合い）<br>ドンピシャ　のタイミングでパンッ（ギリギリ　のタイミングでパンッ！）<br>「はいカット」が聞こえるような（「はい、アウト！」が聞こえるような）  </p>
+<p>揺るぎなき制作意欲は作り手の願い（ゆるぎなき注意意欲は運営側の願い）<br>狂いなき眼差しは受け取り手の想い（狂いなき判断　は受取手の自由）  </p>
+<p>一億人に届け MUSIC VIDEO（一億人に届け、CHUITEN VIDEO）  </p>
+</div>
+    </div>
+    <div class="modal" id="a-注意点体操2015Summer"><a class="close-modal" href="#">Close</a>
+      <div class="chuiten"><p>さあみんな　注意点体操の時間だよ!</p>
+<p>今日も元気に　いってみよう！</p>
+<p>注意点　注意点　注意点体操</p>
+<p>両手を前に　足を曲げる　開発 注意点体操</p>
+<p>休憩しないで開発してると疲れる　注意点体操</p>
+<p>のどがかわく　そのまま我慢　倒れる　注意点体操  </p>
+<p>勝手に消えると　運営スタッフ　焦るよ　注意点体操  </p>
+<p>深夜になっても　パソコンしてると　鬼来る　注意点体操  </p>
+<p>開発あそび　本気でやると楽しい　注意点体操</p>
+<p>ランランランラン　ルンルンルンルン　楽しい　注意点体操  </p>
+<p>午前はねむい　お昼はあつい　食後もねむい　深夜はねない　注意点　注意点　注意点体操  </p>
+<p>お肌のゴールデンタイムは　夜10時から午前2時までだよ　ちゃんと寝ろよ  </p>
+</div>
+    </div>
+    <div class="modal" id="a-注意点体操2015Xmas"><a class="close-modal" href="#">Close</a>
+      <div class="chuiten"><p>さあみんな　注意点体操の時間だよ！<br>今日も元気に　いってみよう！  </p>
+<p>注意点　注意点　注意点体操  </p>
+<p>両手を前に　足を曲げる　開発<br>注意点体操  </p>
+<p>湖入ると　カッパに食われて　溺れる<br>注意点体操  </p>
+<p>勝手に消えると　運営スタッフ　焦るよ<br>注意点体操  </p>
+<p>深夜になっても　パソコンしてると　鬼来る<br>注意点体操  </p>
+<p>開発あそび　本気でやると　楽しい<br>注意点体操  </p>
+<p>ランランランラン　ルンルンルンルン　楽しい<br>注意点体操  </p>
+<p>午前は眠い　お部屋は温い<br>食後も眠い　深夜は寝ない  </p>
+<p>注意点　注意点　注意点体操  </p>
+<p>今撮影していここの気温は -3℃だよ<br>風邪　ひくなよ  </p>
+</div>
+    </div>
+    <div class="modal" id="a-注意点太郎2016Xmas"><a class="close-modal" href="#">Close</a>
+      <div class="chuiten"><p>勝手に~ いなくならない~<br>Uh!<br>勝手にいなくならない ！</p>
+<p>こまめに~ 水分取らないと~<br>Uh!<br>こまめに水分取らないと！</p>
+<p>昼間は~ 寝ないで~<br>Uh!<br>昼間は寝ないで！</p>
+<p>勝手にいなくならない！ こまめに水分取らないと ！ 昼間は寝ないで！<br>Uh!<br>勝手に水分取らないで</p>
+</div>
+    </div><a class="close-modal" id="modal-overlay" href="#"></a>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
